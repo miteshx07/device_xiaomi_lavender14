@@ -331,7 +331,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
-    hardware/google/pixel
+    hardware/google/pixel \
+    hardware/qcom-caf/sdm660
 
 # Public libraries
 PRODUCT_COPY_FILES += \
