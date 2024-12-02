@@ -14,12 +14,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# WITH_GMS := true
 PRODUCT_NAME := lineage_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
+TARGET_BUILD_TYPE=release
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
