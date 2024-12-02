@@ -19,7 +19,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
-TARGET_BUILD_TYPE=release
+TARGET_BUILD_TYPE := release
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
