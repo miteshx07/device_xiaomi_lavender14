@@ -206,4 +206,3 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
 include vendor/xiaomi/lavender/BoardConfigVendor.mk
-include vendor/lineage-priv/keys/keys.mk
